@@ -55,8 +55,8 @@ function montarTabela(cab, dados){
       if(j>=7 && j<=18){
         td.innerHTML=`<select>
           <option value=""></option>
-          <option ${v==="SIM"?"selected":""}>SIM</option>
-          <option ${v==="NÃO"?"selected":""}>NÃO</option>
+          <option ${v==="X"?"selected":""}>X</option>
+          <option ${v==="F"?"selected":""}>F</option>
         </select>`;
       } else if(j===19){
         td.innerHTML=`<input type="text" value="${v||""}">`;
